@@ -2,7 +2,7 @@ import asyncio
 
 async def error():
     await asyncio.sleep(3)
-    raise ValueError("Что-то пошло не так!")  
+    raise ValueError("Думал работает, а вот нет")  
 
 async def main():
     try:
